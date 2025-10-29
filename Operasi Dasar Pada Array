@@ -1,0 +1,10 @@
+#membuat operasi matematika lansung
+x = np.array([1,2,3,4,5])
+y = 2*x+3
+print(y)
+
+#membuat keluaran operasi untuk kuadrat tiap elemen
+print(x**2)
+
+#membuat keluaran operasi untuk modulus tiap elemen
+print(x%2)
