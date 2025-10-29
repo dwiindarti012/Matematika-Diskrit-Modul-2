@@ -1,0 +1,12 @@
+#memanggil numpy untuk memulai membuat program
+import numpy as np
+
+#membuat Array 1D
+x = np.array([1,2,3,4,5])
+
+#membuat Array 2D (matriks)
+m = np.array([[1,2],[3,4]])
+
+#menampilkan hasil atau keluaran (output)
+print(x)
+print(m)
