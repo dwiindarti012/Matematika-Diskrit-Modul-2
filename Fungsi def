@@ -1,0 +1,4 @@
+#contoh dasar fungsi def
+def sapa(nama):
+    print("halo",nama)
+sapa("Mahasiswa TI")
