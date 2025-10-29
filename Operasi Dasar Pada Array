@@ -1,5 +1,5 @@
 #membuat operasi matematika lansung
-x = np.array([1,2,3,4,5])
+x = np.array([0,1,2,3,4])
 y = 2*x+3
 print(y)
 
