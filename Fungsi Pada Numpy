@@ -1,0 +1,12 @@
+import numpy as np
+#membuat fungsi deret dengan step
+print(np.arange(0,10,2))
+
+#membuat fungsi 5 titik antara 0 dan 1
+print(np.linspace(0,1,5))
+
+#membuat fungsi array berisi 0
+print(np.zeros(5))
+
+#membuat fungsi array berisi 1
+print(np.ones(3))
