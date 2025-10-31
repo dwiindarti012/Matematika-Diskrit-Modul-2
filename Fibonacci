@@ -1,0 +1,14 @@
+#membuat deret fibonacci
+def fibonacci (n):
+     if n <= 1:
+        return n
+     else:
+        return fibonacci (n-1) + fibonacci (n-2)
+
+#memasukkan nilai dalam variabel dengan inputan dinamis
+n = int(input("masukkan jumlah suku: "))
+
+# membuat output hasil dalam bentuk deret
+print("Deret Fibonacci:")
+for i in range (n):
+    print(fibonacci(i), end=" ")
