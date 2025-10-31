@@ -10,5 +10,6 @@ def kpk(a, b):
 x = int(input("masukkan bilangan pertama: "))
 y = int(input("masukkan bilangan kedua: "))
 
+#menampilkan output dari program
 print(f"fpb dari {x} dan {y} adalah {fpb(x, y)}")
 print(f"kpk dari {x} dan {y} adalah {kpk(x, y)}")
