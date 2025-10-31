@@ -1,0 +1,15 @@
+#menentukan bilangan prima
+def is_prima(n):
+     if n <= 1:
+       return False
+     for i in range(2, int(n**0.5) + 1):
+       if n % i == 0:
+         return False
+     return True
+#memasukkan nilai dengan inputan dinamis
+angka = int(input("masukkan bilangan: "))
+#menampilkan hasil program
+if is_prima(angka):
+   print(angka, "adalah bilangan prima")
+else:
+   print(angka, "bukan bilangan prima")
